@@ -2,8 +2,10 @@ let toss = Math.ceil(Math.random() * 2);
 console.log(toss);
 if (toss === 1) {
     document.querySelector('.csk-btn').innerHTML = 'CSK Batting';
+    alert("CSK Won the Toss")
 } else if (toss === 2) {
     document.querySelector('.csk-btn').innerHTML = 'MI Batting';
+     alert("MI Won the Toss")
 }
 
 let index = 1;
